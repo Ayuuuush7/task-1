@@ -1,0 +1,11 @@
+# Ignore all TTF font files
+*.ttf
+
+# Ignore common image formats
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.webp
+*.ico
