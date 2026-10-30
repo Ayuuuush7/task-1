@@ -1,0 +1,135 @@
+@font-face {
+    font-family: pikachu;
+    src: url(./Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: text;
+    src: url(./Poppins-ExtraLight.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding: 15px;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#block1{
+    background-color: #FBC50B;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 0px 0px 20px ;
+    position: relative;
+    overflow: hidden;
+}
+
+#block2{
+    background-color: #FBE8B3;
+    height: 100%;
+    width: 60%;
+    border-radius: 0px 20px 20px 0px ;
+}
+
+#content{
+    position: absolute;
+    width:50%;
+    left: 3%;
+    top: 25%;
+}
+
+#name{
+    font-size: 70px;
+    font-family: pikachu;
+}
+
+p{
+    font: text;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+}
+
+h6{
+    font-family: text;
+    letter-spacing: 1.5px;
+}
+
+.ri-menu-line {
+    font-size: 30px;
+    color: #1e293b;
+    cursor: pointer;
+    position: absolute;
+    left:95%;
+    top: 5%;
+}
+
+#pagination{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    left: 95.8%;
+    top: 40%;
+}
+
+span{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #FBC50B;
+    transition: all ease 1s;
+}
+
+span:active{
+    background-color: #111;
+    border: 1px solid black;
+}
+
+#neeche{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#line {
+    height: 2px;
+    width: 30px;
+    background-color: #222;
+}
+
+h4{
+    letter-spacing: 2px;
+}
+
+img{
+    position: absolute;
+}
+
+#pokemon-logo{
+    left: 2%;
+    height: 120px;
+}
+
+#pokeball{
+    height: 300px;
+    opacity: 0.4;
+    top: 70%;
+}
+
+#pikachu{
+    z-index: 2;
+    height: 70%;
+    left: 45%;
+    top: 15%;
+}
